@@ -51,7 +51,6 @@ class _FlyImageState extends State<FlyImage> {
   @override
   Widget build(BuildContext context) {
     final themeProvider = Provider.of<ThemeProvider>(context);
-    debugPrint(themeProvider.imgPath);
     return themeProvider.imgPath==null?Positioned.fill(
       child: Container(
         color: widget.backColor,

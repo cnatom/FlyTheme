@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c42a3e7-c796-456a-bdd2-36e898b57d8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/module/background.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/provider.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/module/background.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module/background.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +45,19 @@
       <option name="presentableId" value="Default" />
       <updated>1635312390651</updated>
     </task>
+    <task id="LOCAL-00001" summary="0.0.1版本">
+      <created>1635350764392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635350764392</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0.0.1版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.0.1版本" />
   </component>
   <component name="WindowStateProjectService">
     <state x="763" y="232" key="#com.intellij.ide.util.MemberChooser" timestamp="1635344415048">
@@ -66,6 +68,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="688" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1635330108673" />
+    <state x="496" y="3" key="CommitChangelistDialog2" timestamp="1635350763573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="496" y="3" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1635350763573" />
     <state x="738" y="271" key="FileChooserDialogImpl" timestamp="1635320752802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -98,10 +104,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="550" y="209" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1635340334177" />
-    <state x="550" y="245" key="Vcs.Push.Dialog.v2" timestamp="1635350380111">
+    <state x="550" y="245" key="Vcs.Push.Dialog.v2" timestamp="1635350807860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="550" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1635350380111" />
+    <state x="550" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1635350807860" />
     <state x="621" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1635327643178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
