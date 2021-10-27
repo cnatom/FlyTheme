@@ -8,6 +8,10 @@
 
 矿小助App：https://kxz.atcumt.com/
 
+pub插件地址：https://pub.dev/packages/flytheme
+
+github仓库地址：https://github.com/cnatom/flytheme
+
 ## 快速上手
 
 首先，导入fly_theme到pubspec.yaml文件
