@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c42a3e7-c796-456a-bdd2-36e898b57d8e" name="Default Changelist" comment="" />
+    <list default="true" id="1c42a3e7-c796-456a-bdd2-36e898b57d8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/module/background.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="204mmFwsaS6TZ47KikfUEJPQVW7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -18,6 +36,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../test/flytheme" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -39,10 +58,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="763" y="232" key="#com.intellij.ide.util.MemberChooser" timestamp="1635317695145">
+    <state x="763" y="232" key="#com.intellij.ide.util.MemberChooser" timestamp="1635344415048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="763" y="232" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1635317695145" />
+    <state x="763" y="232" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1635344415048" />
     <state x="688" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1635330108673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -51,22 +70,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="738" y="271" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1635320752802" />
-    <state width="1858" height="290" key="GridCell.Tab.0.bottom" timestamp="1635329761869">
+    <state x="818" y="419" key="Github.ShareDialog" timestamp="1635330576240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1858" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1635329761869" />
-    <state width="1858" height="290" key="GridCell.Tab.0.center" timestamp="1635329761869">
+    <state x="818" y="419" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1635330576240" />
+    <state x="718" y="140" key="Github.UntrackedFilesDialog" timestamp="1635330579529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1858" height="290" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1635329761869" />
-    <state width="1858" height="290" key="GridCell.Tab.0.left" timestamp="1635329761869">
+    <state x="718" y="140" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1635330579529" />
+    <state width="1879" height="214" key="GridCell.Tab.0.bottom" timestamp="1635345260463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1858" height="290" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1635329761869" />
-    <state width="1858" height="290" key="GridCell.Tab.0.right" timestamp="1635329761869">
+    <state width="1879" height="214" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1635345260463" />
+    <state width="1879" height="214" key="GridCell.Tab.0.center" timestamp="1635345260463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1858" height="290" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1635329761869" />
+    <state width="1879" height="214" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1635345260463" />
+    <state width="1879" height="214" key="GridCell.Tab.0.left" timestamp="1635345260462">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="214" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1635345260462" />
+    <state width="1879" height="214" key="GridCell.Tab.0.right" timestamp="1635345260463">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="214" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1635345260463" />
+    <state x="550" y="209" key="SettingsEditor" timestamp="1635340334177">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="550" y="209" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1635340334177" />
+    <state x="550" y="245" key="Vcs.Push.Dialog.v2" timestamp="1635350380111">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="550" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1635350380111" />
     <state x="621" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1635327643178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

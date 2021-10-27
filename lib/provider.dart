@@ -1,7 +1,10 @@
 import 'dart:convert';
+import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ThemeProvider extends ChangeNotifier {
@@ -9,8 +12,8 @@ class ThemeProvider extends ChangeNotifier {
 
   //主题模式，用于在MaterialApp入口处设置主题模式
   static ThemeMode _themeMode = ThemeMode.light;
-
   //基础变量
+  static String _imgPath;//背景图路径
   static bool _blackMode;//黑色模式
   static bool _whiteMode;//白色模式
   static double _transBack; //背景透明度
@@ -21,6 +24,7 @@ class ThemeProvider extends ChangeNotifier {
   static final int _colorDefaultValue = 4278240425;//默认的主题色
 
   //get方法
+  String get imgPath => _imgPath;
   bool get whiteMode => _whiteMode;
   ThemeMode get themeMode => _themeMode;
   bool get blackMode => _blackMode;
@@ -29,7 +33,6 @@ class ThemeProvider extends ChangeNotifier {
   double get transCard => _transCard;
   Color get colorMain => _colorMain;
   Color get colorText => _colorText;
-
   //本地化存储实例
   static SharedPreferences _prefs;
 
@@ -74,7 +77,6 @@ class ThemeProvider extends ChangeNotifier {
   }
   //恢复默认配置
   _restore(){
-    debugPrint("@restore");
     _jsonToTheme(_transDefault);
   }
   ///本地化持久存储
@@ -92,9 +94,26 @@ class ThemeProvider extends ChangeNotifier {
     _themeMode = _blackMode ? ThemeMode.dark : ThemeMode.light;
 
   }
+  void changeBackImg()async{
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    PickedFile pickedFile = await ImagePicker().getImage(source: ImageSource.gallery);
+    if(pickedFile==null) return;
+    final File tempImgFile = File(pickedFile.path);
+    String imageFileName = tempImgFile.path.substring(
+        tempImgFile.path.lastIndexOf('/') + 1, tempImgFile.path.length);
+    Directory tempDir = await getApplicationDocumentsDirectory();
+    Directory directory = new Directory('${tempDir.path}/images');
+    if (!directory.existsSync()) {
+      directory.createSync();
+    }
+    _imgPath = (await tempImgFile.copy('${directory.path}/$imageFileName')).path;
+    notifyListeners();
+    _savePrefs();
+  }
   ///Json->类对象
   static _initFromJson(dynamic json) {
     _jsonToTheme(json);
+    _imgPath = json['imgPath'];
     _colorMain = Color(json['colorMain']);
 
   }
@@ -102,6 +121,7 @@ class ThemeProvider extends ChangeNotifier {
   ///将主题数据打包成Json
   static Map<String, dynamic> _toJson() {
     var map = <String, dynamic>{};
+    map["imgPath"] = _imgPath;
     map["darkMode"] = _blackMode;
     map["simpleMode"] = _whiteMode;
     map["transBack"] = _transBack;
@@ -154,6 +174,12 @@ class ThemeProvider extends ChangeNotifier {
   //设置卡片的透明度
   set transCard(double value) {
     _transCard = value;
+    notifyListeners();
+    _savePrefs();
+  }
+
+  set imgPath(String path){
+    _imgPath = path;
     notifyListeners();
     _savePrefs();
   }
