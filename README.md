@@ -66,7 +66,6 @@ class _ExampleState extends State<Example> {
 | ThemeProvider | 核心组件，用于跨组件共享，使用Provider实现     | Provider                 |
 | FlyTheme      | 主题配置                                       | ThemeData                |
 
-## 配置
 
 
 
